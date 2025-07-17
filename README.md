@@ -107,7 +107,7 @@ interface Question {
   userId: string;
   title: string;
   content: string;
-  category: 'study' | 'career' | 'exam' | 'other';
+  category: '数学' | '国語' | '社会' | '理科';
   imageUrls?: string[];
   likeCount: number;
   answerCount: number;
